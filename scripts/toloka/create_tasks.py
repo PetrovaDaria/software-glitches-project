@@ -17,4 +17,5 @@ def create_tasks(pool_id: str):
         )
         for item in df.itertuples()
     ]
+    print(len(tasks))
     return tasks

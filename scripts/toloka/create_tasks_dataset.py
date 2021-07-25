@@ -17,7 +17,7 @@ def create_tasks_dataset(dataset_path: str):
         'in_6k_chosen_texts'
     ])
     file_names = os.listdir(GOOD_TEXTS_DIR_PATH)
-    for file_name in file_names[:10]:
+    for file_name in file_names:
         file_path = os.path.join(GOOD_TEXTS_DIR_PATH, file_name)
         new_rows = get_file_text_dicts(file_path, file_name)
         for new_row in new_rows:

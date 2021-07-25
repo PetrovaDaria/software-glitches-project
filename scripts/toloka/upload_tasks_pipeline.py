@@ -10,7 +10,7 @@ if __name__ == '__main__':
     # create_tasks_dataset(TOLOKA_TASKS_DATASET_PATH)
 
 
-    pool_id = '938929'
+    pool_id = '945012'
     tasks = create_tasks(pool_id)
     #
     toloka_client = get_toloka_client(TolokaEnv.SANDBOX)

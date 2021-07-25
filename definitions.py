@@ -22,6 +22,10 @@ toloka_token = {
 }
 
 TOLOKA_TASKS_DATASET_PATH = os.path.join(ROOT_DIR, 'data/toloka/tasks.tsv')
+TOLOKA_BAD_TASKS_DATASET_PATH = os.path.join(ROOT_DIR, 'data/toloka/bad_tasks.tsv')
+TOLOKA_JOINED_TASKS_DATASET_PATH = os.path.join(ROOT_DIR, 'data/toloka/joined_tasks.tsv')
+TOLOKA_SHUFFLED_TASKS_DATASET_PATH = os.path.join(ROOT_DIR, 'data/toloka/shuffled_tasks.tsv')
 
 # valid only for remote machine
 GOOD_TEXTS_DIR_PATH = ROOT_DIR + '/../software-glitches/csvs_by_header2'
+ALYA_SOFTWARE_DIR_PATH = ROOT_DIR + '/../software-glitches/two_parts_processing/csvs'

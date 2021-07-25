@@ -15,6 +15,8 @@ def set_mixer_config(toloka_client: TolokaClient, pool_id: str):
         real_tasks_count=5,  # The number of tasks per page.
         golden_tasks_count=0,  # The number of test tasks per page. We do not use in this tutorial.
         training_tasks_count=0,  # The number of training tasks per page. We do not use in this tutorial.
+        mix_tasks_in_creation_order=True,
+        shuffle_tasks_in_task_suite=True
     )
     toloka_client.update_pool(pool_id, pool)
 
